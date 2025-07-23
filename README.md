@@ -1,12 +1,12 @@
-AND101 Project 5 - Choose Your Own API
+AND101 Project 6 - CYOAPI Part 2: RecyclerView Edition
 Submitted by: Mohammad Fayyaz
 
-Time spent: 4 hours spent in total
+Time spent: 3 hours spent in total
 
 Summary
-PokemonPokedex is an android app that displays a random Pokémon and its information from the PokéAPI.
+PokemonPokedex is an android app that displays a scrollable list of the first 20 Pokémon from the PokéAPI.
 
-If I had to describe this project in three (3) emojis, they would be: ⚡️🤖📱
+If I had to describe this project in three (3) emojis, they would be: 📜🐉📱
 
 Application Features
 <!-- (This is a comment) Please be sure to change the [ ] to [x] for any features you completed.  If a feature is not checked [x], you might miss the points for that item! -->
@@ -15,32 +15,31 @@ The following REQUIRED features are completed:
 
 [x] Make an API call to an API of your choice using AsyncHTTPClient
 
-[x] Display at least three (3) pieces of data for each API entry retrieved
+[x] Implement a RecyclerView to display a list of entries from the API
 
-[x] A working Button requests a new API entry and updates the data displayed
+[x] Display at least three (3) pieces of data for each RecyclerView item
 
 The following STRETCH features are implemented:
 
-[ ] Add a query to the API request
+[ ] Add a UI element for the user to interact with API further
 
-The query I added is FILL IN HERE
+[ ] Show a Toast or Snackbar when an item is clicked
 
-[ ] Build a UI to allow users to add that query
+[ ] Add item dividers with DividerItemDecoration
 
 The following EXTRA features are implemented:
 
 [ ] List anything else that you added to improve the app!
 
-API Choice
-My chosen API for this project is the PokéAPI.
-
 Video Demo
 Here's a video that demos all of the app's implemented features:
 
-Link to Video Demo: https://youtube.com/shorts/7q5pg3yvV0E?feature=share
+Link to Video Demo
+
+https://youtube.com/shorts/Q7wDknAAc9w?feature=share
 
 Notes
-Here's a place for any other notes on the app, it's creation process, or what you learned this unit!
+This project builds upon the previous week's app by converting the single-entry view into a full, scrollable list using a RecyclerView.
 
 License
 Copyright 2025 Mohammad Fayyaz
