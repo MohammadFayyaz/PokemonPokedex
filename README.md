@@ -1,31 +1,33 @@
-AND101 Project 6 - CYOAPI Part 2: RecyclerView Edition
+AND101 Project 7 - CYOAPI Part 3: Beautified
 Submitted by: Mohammad Fayyaz
 
-Time spent: 3 hours spent in total
+Time spent: 4 hours spent in total
 
 Summary
-PokemonPokedex is an android app that displays a scrollable list of the first 20 Pokémon from the PokéAPI.
+PokemonPokedex is an android app that displays a styled, scrollable list of Pokémon from the PokéAPI, featuring a custom retro font and themes for both light and dark mode.
 
-If I had to describe this project in three (3) emojis, they would be: 📜🐉📱
+If I had to describe this project in three (3) emojis, they would be: 🎨👾📱
 
 Application Features
 <!-- (This is a comment) Please be sure to change the [ ] to [x] for any features you completed.  If a feature is not checked [x], you might miss the points for that item! -->
 
 The following REQUIRED features are completed:
 
-[x] Make an API call to an API of your choice using AsyncHTTPClient
+[x] App contains a RecyclerView that displays a list of scrollable data
 
-[x] Implement a RecyclerView to display a list of entries from the API
+[x] App displays at least two (2) pieces of data for each RecyclerView item
 
-[x] Display at least three (3) pieces of data for each RecyclerView item
+[x] Use a downloadable font with custom color and size
+
+[x] Modify the theme of the app in themes.xml
+
+[x] Define and apply at least one style in themes.xml
 
 The following STRETCH features are implemented:
 
-[ ] Add a UI element for the user to interact with API further
+[x] Update the night theme to use different versions of styles when in dark mode
 
-[ ] Show a Toast or Snackbar when an item is clicked
-
-[ ] Add item dividers with DividerItemDecoration
+[ ] Use different drawables when in dark mode
 
 The following EXTRA features are implemented:
 
@@ -36,10 +38,10 @@ Here's a video that demos all of the app's implemented features:
 
 Link to Video Demo
 
-https://youtube.com/shorts/Q7wDknAAc9w?feature=share
+https://youtube.com/shorts/TtS7daMzB-I?feature=share
 
 Notes
-This project builds upon the previous week's app by converting the single-entry view into a full, scrollable list using a RecyclerView.
+This project focused on enhancing the UI of the Pokedex app. A custom pixel-style font ("Press Start 2P") was added. The app's theme was changed to a Pokedex-red for the app bar, and a custom style was created for the list items to give them a card-like appearance. Support for dark mode was also implemented, providing a different card background color that matches the system theme.
 
 License
 Copyright 2025 Mohammad Fayyaz
